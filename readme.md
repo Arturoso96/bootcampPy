@@ -13,3 +13,5 @@ Let's face some hands-on trainings:
 5. Use of Pig to to a stream of actions over MapReduce without even knowing, I prefer Pig while everybody uses Hive, a pity.
 
 I was thinking about doing some exercise with HBASE or Spark but while both are born in the echosystem of Hadoop, HBASE just happens to be born using Hadoop Filesystem but could be intedependent and Spark is totally independent, indeed the last versions of Spark tend to ignore Hadoop and instead of YARN Spark tends to be deployed in Kubernetes, meaning in any cluster.
+
+

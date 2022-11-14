@@ -155,7 +155,7 @@ hdfs dfs -ls /tmp/practica
 hdfs dfs -cat /tmp/practica/text.txt
 ```
 
-voila
+voila!
 
 You can also check in the UI the file is now there!
 
@@ -181,6 +181,7 @@ Now we can decomission the cluster and the project to avoid any future inconveni
 ### Decommissioning
 ##### Decommission Cluster
 ```shell
+# cluster is called after project ID
 gcloud dataproc clusters delete $PROJECT_ID --region $REGION
 # Let's check the cluster is no longer there
 gcloud dataproc clusters list --region=$REGION
